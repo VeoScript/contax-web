@@ -11,9 +11,14 @@
           </div>
         </div>
       </div>
-      <div class="rate flex space-x-3">
-        <div class="font-extrabold text-lg">73 <span class="font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]">Contacts</span></div>
-        <div class="font-extrabold text-lg">55 <span class="font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]">Private Files</span></div>
+      <div class="rate">
+        <div class="flex justify-end  ">
+          <nuxt-link to="/" class="px-5 py-0.5 bg-[#64DD17] text-white text-xs rounded-md focus:ring-2 focus:ring-[#76FF03]">Logout</nuxt-link>
+        </div>
+        <div class="flex space-x-3 mt-3">
+          <div class="font-extrabold text-lg">73 <span class="font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]">Contacts</span></div>
+          <div class="font-extrabold text-lg">55 <span class="font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]">Private Files</span></div>
+        </div>
       </div>
     </div>
     <HomeContent />
