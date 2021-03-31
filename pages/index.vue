@@ -23,13 +23,18 @@
             </div>
           </div>
         </form>
+        <FootBar />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import FootBar from '~/components/layouts/FootBar'
 export default {
+  components: {
+    FootBar,
+  },
   methods: {
     login() {
       this.$router.push("home")
