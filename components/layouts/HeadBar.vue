@@ -19,9 +19,9 @@
           <svg class="w-8 h-8 text-[#93DB3B] transition duration-300 hover:text-[#3CAC45]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
         </nuxt-link>
       </div>
-      <div class="flex space-x-3 mt-3">
-        <div class="font-extrabold text-lg">32 <span class="font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]">Contacts</span></div>
-        <div class="font-extrabold text-lg">10 <span class="font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]">Photos</span></div>
+      <div class="count-holder flex space-x-1 mt-3 ml-2">
+        <div class="flex items-center font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]"><span class="font-bold text-yellow-300 mr-1">5</span>Contacts</div>
+        <div class="flex items-center font-normal text-xs text-[#76FF03] px-3 py-0.5 rounded-full bg-[#333]"><span class="font-bold text-yellow-300 mr-1">25</span>Photos</div>
       </div>
     </div> 
   </div>
