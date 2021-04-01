@@ -10,14 +10,14 @@
 </template>
 
 <script>
+import Contacts from '~/components/pages/Contacts'
 import HeadBar from '~/components/layouts/HeadBar'
-import Contacts from '~/components/layouts/Contacts'
 import FootBar from '~/components/layouts/FootBar'
 import SideBar from '~/components/layouts/SideBar'
 export default {
   components: {
-    HeadBar,
     Contacts,
+    HeadBar,
     FootBar,
     SideBar
   },

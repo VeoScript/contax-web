@@ -10,14 +10,14 @@
 </template>
 
 <script>
+import Gallery from '~/components/pages/Gallery'
 import HeadBar from '~/components/layouts/HeadBar'
-import Gallery from '~/components/layouts/Gallery'
 import FootBar from '~/components/layouts/FootBar'
 import SideBar from '~/components/layouts/SideBar'
 export default {
   components: {
-    HeadBar,
     Gallery,
+    HeadBar,
     FootBar,
     SideBar
   },
