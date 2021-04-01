@@ -1,20 +1,25 @@
 <template>
   <div class="h-screen overflow-hidden">
     <HeadBar />
-    <HomeContent />
+    <div class="flex w-full space-x-16 justify-center mt-10">
+      <SideBar />
+      <Contacts />
+    </div>
     <FootBar />
   </div>
 </template>
 
 <script>
 import HeadBar from '~/components/layouts/HeadBar'
-import HomeContent from '~/components/layouts/HomeContent'
+import Contacts from '~/components/layouts/Contacts'
 import FootBar from '~/components/layouts/FootBar'
+import SideBar from '~/components/layouts/SideBar'
 export default {
   components: {
     HeadBar,
-    HomeContent,
-    FootBar
+    Contacts,
+    FootBar,
+    SideBar
   },
 }
 </script>
