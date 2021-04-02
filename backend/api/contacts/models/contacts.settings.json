@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "contacts",
   "info": {
-    "name": "Contacts"
+    "name": "Contacts",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,17 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "avatar": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "name": {
       "type": "string"
     },
