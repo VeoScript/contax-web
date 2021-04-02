@@ -4,6 +4,10 @@
       <img class="w-32 h-32 rounded-full border-4 border-[#91E53A]" src="http://pm1.narvii.com/6818/069881a78d1dfde990bf0bd3637d0122cd5f4347v2_00.jpg" alt="profile">
       <div class="space-y-1">
         <div class="font-black text-[#333] text-xl uppercase">Lisa Manoban</div>
+        <div class="flex space-x-2">
+          <nuxt-link class="font-light text-xs text-[#333] hover:text-[#91E53A]" to="/home/create-contact">New Contact</nuxt-link>
+          <nuxt-link class="font-light text-xs text-[#333] hover:text-[#91E53A]" to="/">Upload Photo</nuxt-link>
+        </div>
         <div class="font-medium text-[#333] text-sm">lisamanoban@gmail.com</div>
         <div class="font-light text-[#333] text-xs w-2/3">
           Once you replace negative thoughts with positive ones, you’ll start having positive results.
