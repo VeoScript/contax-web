@@ -31,23 +31,29 @@ export default {
   apollo: {
     contacts: {
       prefetch: true,
-      query: GET_ALL_CONTACTS,
-      subscribeToMore: [
-        {
-          document: GET_ALL_CONTACTS_SUBSCRIPTION,
-          updateQuery: (previousResult, { subscriptionData }) => {
-            if(previousResult) {
-              return {
-                contacts: [
-                  ...subscriptionData.data.contacts
-                ]
-              }
-            }
-          }
-        }
-      ]
+      query: GET_ALL_CONTACTS
     }
   }
+  // apollo: {
+  //   contacts: {
+  //     prefetch: true,
+  //     query: GET_ALL_CONTACTS,
+  //     subscribeToMore: [
+  //       {
+  //         document: GET_ALL_CONTACTS_SUBSCRIPTION,
+  //         updateQuery: (previousResult, { subscriptionData }) => {
+  //           if(previousResult) {
+  //             return {
+  //               contacts: [
+  //                 ...subscriptionData.data.contacts
+  //               ]
+  //             }
+  //           }
+  //         }
+  //       }
+  //     ]
+  //   }
+  // }
   // apollo: {
   //   contacts: {
   //     subscribeToMore: {
@@ -67,12 +73,6 @@ export default {
   //         }
   //       }
   //     }
-  //   }
-  // }
-  // apollo: {
-  //   contacts: {
-  //     prefetch: true,
-  //     query: GET_ALL_CONTACTS
   //   }
   // }
 }
